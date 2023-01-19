@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .divhead{
+            height: 120px;
+            width: 100%;
+            background-color: rgb(99, 99, 99);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+            font-size: 23px;
+            font-family: Tahoma;
+        }
+        nav>ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            gap: 1rem; 
+            list-style: none;
+        }
+        nav>ul>li>a{
+            text-decoration: none;
+            color: white;
+            font-size:12px ;
+        }
+        nav>ul>li>a:hover{
+            color:black;
+        }
+        #sect1{
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        #sect1>h1{
+            text-align: center;
+            font-family: Verdana;
+        }
+        #sect1>h5{
+            text-align: center;
+            font-size: 9px;
+            font-family: Verdana;
+            color: rgb(48, 48, 48);
+        }
+
+
+        #sect2,
+        #sect3,
+        #sect4,
+        #sect5,
+        #sect6{
+            height: 400px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="divhead">
+        <div id="logo">
+            <p>MOVIE ZONE</p>
+        </div>
+        <div id="navigation">
+            <nav>
+                <ul>
+                    <li><a href="#sect1">HOME</a></li>
+                    <li><a href="#sect2">ADVENTURE</a></li>
+                    <li><a href="#sect3">ANIMATION</a></li>
+                    <li><a href="#sect4">ACTION</a></li>
+                    <li><a href="#sect5">COMEDY</a></li>
+                    <li><a href="#sect6">ROMANCE</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+
+    <section id="sect1">
+        <H1>WELCOME TO MOVIE-ZONE</H1>
+            <H5>-HOME OF YOUR FAVOURITE MOVIES-</H5>
+    </section>
+    <hr>
+    <section id="sect2">
+        <div id="text">
+            <div id="name">
+                 <h2>ADVENTURE</h2>
+            </div>
+            <div id="decript">
+                <p>The adventure film, similar in many ways to the action film, involves a character who must overcome great adversity and challenges while on a journey. The settings tend to be exotic locales, the villains tend to be nasty, the emphasis tends to be on thrills, often serialized over several Saturday matinee showings.</p>
+            </div>
+        </div>
+        <div id="image">/
+            <a href="https://www.bing.com/ck/a?!&&p=9d3764148aebd126JmltdHM9MTY3MzkxMzYwMCZpZ3VpZD0yYjMxZjhhMC02N2JmLTYyYjItMjI5ZC1lOTAyNjNiZjYwMmUmaW5zaWQ9NTIwMA&ptn=3&hsh=3&fclid=2b31f8a0-67bf-62b2-229d-e90263bf602e&psq=wikipedia+fast+and+furious+9&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvRjlfKGZpbG0p&ntb=1"><img src="data:image/jpeg;base64,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" alt="Fast and fast" title="Fast and fast" width="500"></a>
+        </div>
+
+
+    </section>
+    <hr>
+    <section id="sect3">
+        <div id="text">
+            <div id="name">
+                 <h2>ANIMATION</h2>
+            </div>
+            <div id="decript">
+                <p>3D films are motion pictures made to give an illusion of three-dimensional solidity, usually with the help of special glasses worn by viewers. They have existed in some form since 1915, but had been largely relegated to a niche in the motion picture industry because of the costly hardware and processes required to produce and display a 3D film, and the lack of a standardized format for all segments of the entertainment business. </p>
+            </div>
+        </div>
+        <div id="image">
+            <a href=""><img src="https://th.bing.com/th/id/OIP.P-BHXIe5CmW1LPHRz-mQZgHaEK?w=300&h=180&c=7&r=0&o=5&pid=1.7" alt="Spies in Duigues" title="Spies in Duigues" width="500"></a>
+        </div>
+
+
+    </section>
+    <hr>
+    <section id="sect4">
+        <div id="text">
+            <div id="name">
+                 <h2>ACTION</h2>
+            </div>
+            <div id="decript">
+                <p>3D films are motion pictures made to give an illusion of three-dimensional solidity, usually with the help of special glasses worn by viewers. They have existed in some form since 1915, but had been largely relegated to a niche in the motion picture industry because of the costly hardware and processes required to produce and display a 3D film, and the lack of a standardized format for all segments of the entertainment business. </p>
+            </div>
+        </div>
+        <div id="image">
+            <a href=""><img src="" alt=""></a>
+        </div>
+
+    </section>
+    <hr>
+    <section id="sect5">
+        <div id="text">
+            <div id="name">
+                 <h2>COMEDY</h2>
+            </div>
+            <div id="decript">
+                <p>3D films are motion pictures made to give an illusion of three-dimensional solidity, usually with the help of special glasses worn by viewers. They have existed in some form since 1915, but had been largely relegated to a niche in the motion picture industry because of the costly hardware and processes required to produce and display a 3D film, and the lack of a standardized format for all segments of the entertainment business. </p>
+            </div>
+        </div>
+        <div id="image">
+            <a href=""><img src="" alt=""></a>
+        </div>
+
+    </section>
+    <hr>
+    <section id="sect6">
+        <div id="text">
+            <div id="name">
+                 <h2>ROMANCE</h2>
+            </div>
+            <div id="decript">
+                <p>3D films are motion pictures made to give an illusion of three-dimensional solidity, usually with the help of special glasses worn by viewers. They have existed in some form since 1915, but had been largely relegated to a niche in the motion picture industry because of the costly hardware and processes required to produce and display a 3D film, and the lack of a standardized format for all segments of the entertainment business. </p>
+            </div>
+        </div>
+        <div id="image">
+            <a href=""><img src="" alt=""></a>
+        </div>
+
+
+    </section>
+
+
+
+
+</body>
+</html>
