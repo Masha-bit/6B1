@@ -1,0 +1,210 @@
+body{
+    background-color:black;
+    background: url(../wallpaperflare.com_wallpaper\ \(4\).jpg);
+}
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgba(192, 192, 192, 0.5); */
+  }
+  
+  #bgvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%; 
+    min-height: 100%;
+  }
+ul{
+    list-style-type: none;
+}
+form{
+    box-shadow: 20px 19px 15px 6px rgba(10, 1, 1, 0.61);
+    background-color: rgb(39, 39, 49) ;
+    width: 350px;
+    height: 600px;
+    margin: 0px auto;
+    margin-top: 2rem;
+    border-radius: 22px;
+}
+header{
+    background-color: white;
+    height: 180px;
+    width: 100%;
+    border-bottom-left-radius: 58px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+   
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    color: black;
+    padding-top: 2rem;
+    margin-left:3rem;
+    transition:all 100ms ease-in-out;    
+    /* background-color: blue; */
+}
+.icon:hover{
+    animation: slideleft 1s infinite;
+    transition:all 100ms ease-in-out;
+}
+.icon_si{
+    height: 20px;
+    width: 20px;
+    color: black;
+    padding-top: 2rem;
+    margin-left:3rem;
+}
+.icon_si:hover{
+    animation: slideleft 1s infinite;
+    transition:all 100ms ease-in-out;
+}
+h1{
+    font-size:  26px;
+    font-family: 'Poppins';
+    margin: 0;
+    margin-top: 0.6rem;
+    margin-left:3rem;
+    transition: all 500ms ease-in-out;
+}
+.h1_si{
+    margin-top: 0rem;
+}
+h1:hover{
+    transition: all 500ms ease-in-out;
+    color:rgb(39, 39, 49) ; 
+}
+h5{
+    margin: 0;
+    margin-left:3rem;
+    font-family: 'Poppins';
+}
+ul{
+    margin-top: 2rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: blueviolet; */
+}
+.list_si{
+    margin:4rem auto ;
+}
+li{
+    /* background-color: aquamarine; */
+    
+}
+input{
+    height: 20px;
+    width: 280px;
+    background-color:transparent;
+    border-style: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+    font-size: 13px;
+    color: white;
+    /* font-family: Poppins Bold; */
+    
+}
+input::placeholder{
+    padding-left: 0.5rem;
+    font-size: 11px;
+    /* color: rebeccapurple; */
+}
+button{
+    background-color: white;
+    font-family:'Poppins', sans-serif;;
+    width: 280px;
+    height: 40px;
+    border-radius: 14px;
+    border-color: transparent;
+    font-size: 12px;
+    transition: all 750ms ease-in-out;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: all 750ms ease-in-out;
+}
+.check{
+    margin: 15px 0;
+    width: 280px;
+    color: white;
+    font-size: 12px;
+    /* background-color: aqua; */
+}
+#agree{
+    width: auto;
+    border: none;
+    margin: 0 auto;
+    display: inline;
+    height: 10px;
+    
+}
+label{
+    font-family:'Poppins', sans-serif;;
+    font-size: 11.5px;
+    display: inline;
+}
+#remember{
+    width: auto;
+    border: none;
+    margin: 0 auto;
+    display: inline;
+    height: 10px;
+}
+li:last-of-type{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.link a{
+    text-decoration: none;
+    color: white;
+    font-family:'Poppins', sans-serif;;
+    font-size: 11px;
+    transition: all 350ms ease-in-out;
+}
+.link a div{
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    /* background-color: black; */
+    justify-content: space-between;
+    align-items: center;
+    transition: all 350ms ease-in-out;
+}
+.link a:hover{
+    text-decoration: 3px underline rgb(255, 255, 255);
+    transition: all 350ms ease-in-out;
+}
+.forgot_si a{
+    text-decoration: none;
+    color: white;
+}
+.forgot_si a:hover{
+    text-decoration: 2px underline;
+}
+.forgot_si a p{
+    width: 280px;
+    text-align: right;
+    font-family: 'Poppins';
+}
+/* icon animation */
+@keyframes slideleft{
+    0%{ opacity: 0;}
+    1%{ transform: translateX(10px);}
+    10%{opacity: 1;}
+    80%{ transform: translateX(0);}
+    100%{opacity: 0;}
+}

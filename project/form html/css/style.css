@@ -1,0 +1,102 @@
+body{
+    background: url(../wallpaperflare.com_wallpaper\ \(4\).jpg);
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+form{    
+    /* background-color: rgb(39, 39, 49) ; */
+    width: 350px;
+    height: 600px;
+    margin: 0px auto;
+    margin-top: 2rem;
+    border-radius: 22px;
+    background: linear-gradient(to bottom,  rgba(0, 0, 0, 0.842) 10%,rgb(44, 1, 44) 100%);
+    ;
+    background-position: top;
+    box-shadow: 20px 19px 15px 6px rgba(10, 1, 1, 0.61);
+}
+header{
+    height: 64%;
+    width: 100%;
+   background-color: transparent;
+}
+.logo{
+    padding-top: 3rem;
+    margin-left: 3rem;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+header h1{
+    margin-top: 8rem;
+    margin-left: 3rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    background-color: white;
+    border-top-right-radius: 59px;
+    height:37%;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    width: 280px;
+    text-align: left;
+}
+#button{
+    text-decoration: none;
+}
+/* .button{
+    z-index: 100;
+    background-color: aqua;
+} */
+.button{
+    background-color: rgb(27, 32, 28);
+    font-family:'Poppins', sans-serif;;
+    width: 280px;
+    height: 40px;
+    border-radius: 14px;
+    border-color: transparent;
+    font-size: 15px;
+    transition: all 750ms ease-in-out;
+    margin: 10px 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button:hover{
+    background-color: rgb(23, 32, 26);
+    color: rgb(0, 0, 0);
+    transition: all 750ms ease-in-out;
+}
+section a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+section a:hover{
+    text-decoration: 3px underline;
+}
+section a p{
+    display: inline;
+    width: 280px;
+    text-align: right;
+    color: rgb(27, 32, 28);
+    /* background-color: brown; */
+    
+}
+svg{
+      
+}
+.link{
+    display: flex;
+    width: 280px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: blue; */
+}
+
