@@ -1,0 +1,25 @@
+html{
+    font-size: 40px;
+}
+body{
+    background-color: rgb(59, 59, 85);
+   
+}
+
+section{
+    background-color: rgb(79, 124, 223);
+    height: 50px;
+    width: 50%;
+    /* margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 2em;
+    margin-right: 30px; */
+    margin: 10px auto;
+    transition: all 800ms ease-in-out;  
+
+}
+section:hover{
+    transform: rotateX(150deg);
+      transition: all 800ms ease-in-out;  
+
+}
