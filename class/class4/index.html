@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <ul>
+                <li>
+                    <label for="fname">Full Name</label>
+                    <input type="text" name="fullname" id="fname" required>
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </li>
+                <li>
+                    <label for="address">Home address</label>
+                    <input type="text" name="address" id="address" maxlength="50">
+                </li>
+                <li>
+                    <label for="telephone">Phone number</label>
+                    <input type="tel" name="tel" id="telephone" required>
+                </li>
+                <li>
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" name="date" id="dob" required>
+                </li>
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>Other Information</legend>
+            <ul>
+                <li>
+                    <h3>Gender</h3>
+                    <br>
+                    <label for="male">male</label>
+                    <input type="radio" name="gd" id="male">
+                    
+                    <label for="female">female</label>
+                    <input type="radio" name="gd" id="female" checked>
+                </li>
+                <li>
+                    <h3>Marital status</h3>
+                    <label for="single">single</label>
+                    <input type="radio" name="mar" id="sig"><br>
+
+                    <label for="marr">married</label>
+                    <input type="radio" name="mar" id="marr" checked><br>
+                    
+                    <label for="div">divorced</label>
+                    <input type="radio" name="mar" id="div"><br>
+                    
+                    <label for="win">widowed</label>
+                    <input type="radio" name="mar" id="win">
+                </li>
+                <li>
+                    <h3>State of Origin</h3>
+
+                    <select>
+                        <option value="sel" selected>Select your State</option>
+
+                    <optgroup label="south-east">
+                        <option value="ab">Abia</option>
+                        <option value="an">Anambra</option>
+                        <option value="im">Imo</option>
+                        <option value="en">Enugu</option>
+                        <option value="eb">Ebonyi</option>
+                    </optgroup>
+
+                    <optgroup label="south-west">
+                        <option value="on ">Ondo</option>
+                        <option value="og">Ogun</option>
+                        <option value="os">Osun</option>
+                        <option value="lg">Lagos</option>
+                        <option value="ek">Ekiti</option>
+                        <option value="oy">Oyo</option>
+                    </optgroup>
+                    </select>
+                </li>
+                <li>
+                    <label for="upload">Upload Files</label>
+                    <input type="file" name="upload" id="upload" multiple accept="images/*">
+                </li>
+                <li>
+                    <label for="desc">Describe your self</label>
+                    <br>
+                    <textarea name="desc" id="desc" cols="50" rows="20"></textarea>
+                </li>
+                <li>
+                    <label for="">Stack</label><br>
+
+                    <input type="checkbox" name="rec" id="rec">
+                    <label for="rec">React</label>
+
+                    <input type="checkbox" name="angular" id="angular">
+                    <label for="angular">Angular</label>
+
+                    <input type="checkbox" name="html" id="html">
+                    <label for="html" checked>Html</label>
+
+                    <input type="checkbox" name="css" id="css">
+                    <label for="css">CSS</label>
+
+                    <input type="checkbox" name="pyt" id=""pyt>
+                    <label for="pyt">Python</label>
+
+                    <input type="checkbox" name="js" id="js">
+                    <label for="js">JavaScript</label>
+                </li>
+            </ul>
+        </fieldset>
+
+        <input type="submit" value="Send Data">
+        <button type="submit">Send Data</button>
+    </form>
+
+    <style>
+        ul{
+            list-style-type: none;
+        }
+    </style>
+</body>
+</html>
