@@ -15,7 +15,7 @@ section{
     margin-left: 2em;
     margin-right: 30px; */
     margin: 10px auto;
-    transition: all 800ms ease-in-out;  
+    /* transition: all 800ms ease-in-out;   */
 
 }
 section:hover{
