@@ -43,24 +43,37 @@
     } */
     section:nth-of-type(1){
         grid-area:a ;
+        background: url(./icons8-github-24.png),
+        url(./icons8-github-24.png), url(./icons8-github-24.png), url(./icons8-github-24.png), url(./icons8-github-24.png);
+        background-repeat: no-repeat;
+        background-position: top left, center, top right,bottom left, bottom right;
     }
     section:nth-of-type(2){
         grid-area:b ;
+        background: linear-gradient(-45deg, rgb(0, 109, 33) 25%, rgb(255, 251, 0) 25%, rgb(255, 251, 0) 75%, rgb(0, 109, 33) 75% );
+      
     }
     section:nth-of-type(3){
         grid-area:c ;
+        background: radial-gradient(rgb(136, 0, 0) 30%, white 30%);
     }
     section:nth-of-type(4){
-        grid-area:d ;
+        grid-area:d ;        
+        background: repeating-radial-gradient(rgb(136, 0, 0) 10%, white 12%);
     }
     section:nth-of-type(5){
         grid-area:e ;
     }
     section:nth-of-type(6){
         grid-area:f ;
+        color: white;
+        background: linear-gradient( to right, rgb(11, 11, 41) 35%, white 35%, white 65%, rgb(187, 1, 26) 65% );
+
     }
     section:nth-of-type(7){
         grid-area:g ;
+        color: white;
+        background: linear-gradient( to bottom, rgb(0, 0, 0) 35%, rgb(206, 14, 7) 35%, rgb(206, 14, 7) 65%, rgb(255, 230, 0) 65% );
     }
     section:nth-of-type(8){
         grid-area:h ;

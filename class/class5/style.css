@@ -12,7 +12,8 @@ main{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 100px);
     gap: 10px;
-    grid-template-areas: "a a b c"
+    grid-template-areas: 
+    "a a b c"
     "a a d e"
     "g g f f"
     "h h f f"
@@ -27,12 +28,13 @@ section{
     margin-left: 2em;
     margin-right: 30px; */
     /* margin: 10px auto; */
-    transition: all 800ms ease-in-out;  
+}
+    /* transition: all 800ms ease-in-out;  
 
 }
 section:hover{
     transition: all 800ms ease-in-out;  
-}
+} */
 section:nth-of-type(1){
     grid-area:a ;
 }
@@ -74,7 +76,7 @@ section:nth-of-type(1) a:hover{
 }
 section:nth-of-type(1):hover{
     background-color: black;
-    color: white;
+    /* color: white; */
     transition: all 800ms ease-in-out;  
 }
 
