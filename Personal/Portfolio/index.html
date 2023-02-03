@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="poppins-cufonfonts-webfont/stylefont.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito Sans">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        
+
+        <section class="h_section">
+
+            <nav id="navbar">
+            <div class="ltitle">
+                <b class="nav-header-logo"><span>M</span>ASHA</b>
+            </div>
+            <div class="nav_options">
+              <ul>
+                <a href="#about" id="abt"><li>About</li></a>
+                <a href="#resume" id="wrk"><li>Work</li></a>
+                <a href=""><li>Contact</li></a>
+                <a href=""><li>Connect</li></a>
+              </ul>  
+        </nav>
+
+
+        
+            <div class="overlay"></div>
+            <section class="waa">
+            <div class="h_section_focus">
+                <div class="focus_text">
+                    <span>HEY! I AM</span>
+                    <h2>Masha Christopher</h2>
+                    <div><b>I'm a</b><b>
+                        <span
+     class="txt-rotate"
+     data-period="2000"
+     data-rotate='[ "Developer.", "Web Designer.", "Graphic Artist.", "3D Animator.", "Web Developer!" ]'></span></b>
+
+                    </div>
+
+                </div>
+              <a href="#resume">
+                <div class="mouse">
+                  <div class="wheel">
+                    <span><i class="fa-solid fa-arrow-down-long fa-2x"></i></span>
+                  </div> 
+                </div>
+              </a>
+            </div>
+        </section>
+        </section>
+
+        <section id="about">
+            <div class="about_focus">
+              <div class="about_img">
+                <img src="" alt="" height="600px">
+              </div>
+              <d iv class="about_text">
+                <h1>About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia rerum atque voluptas dolorum a corrupti.</p>
+                <ul>
+                  <li>
+                    <span>Name:</span>
+                    <span>Masha Christopher</span>
+                  </li>
+                  
+                  
+                  <li>
+                    <span>Date of Birth:</span>
+                    <span>15th April 1998</span>
+                  </li>
+                  
+                  <li>
+                    <span>Address:</span>
+                    <span>MCNeil Estate, Lagos, Nigeria</span>
+                  </li>
+
+                  <li>
+                    <span>ZIP code:</span>
+                    <span>100001</span>
+                  </li>
+                  
+                  <li>
+                    <span>Email:</span>
+                    <span>mashachristopherife chukwude@gmail.com </span>
+                  </li>
+                  
+                  <li>
+                    <span>Phone:</span>
+                    <span>(+234)9044314428</span>
+                  </li>
+                  
+                  <!-- <li>
+                    <span></span>
+                    <span></span>
+                  </li> -->
+               
+                </ul>
+              </div>
+
+            </div>
+        </section>
+    </header>
+
+    <section id="logos">
+      <div class="logos">
+        <img src="/ms.png" alt="" height="60px">
+        <img src="/andriod.png" alt=""height="60px">
+        <img src="/java.png" alt=""height="60px">
+        <img src="/google.png" alt=""height="60px">
+        <img src="/adobe.png" alt=""height="60px">
+        <img src="/blender.png" alt=""height="60px">
+      </div>
+    </section>
+
+
+    <section id="resume"> 
+      <div class="resume_focus">
+        <div class="resume_nav">
+          <nav id="navi">
+            <ul>
+              <a class="scrollto" href="#education"><li>Education</li></a>
+              <a class="scrollto" href="#experience"><li>Experience</li></a>
+              <a class="scrollto" href="#skill"><li>Skills</li></a>
+              <a class="scrollto" href="#awards"><li>Awards</li></a>
+            </ul>
+          </nav>
+        </div>
+        <script>
+          
+    // Navbar links active state on scroll
+   
+   let navbarlinks = select('#navi .scrollto', true)
+   const navbarlinksActive = () => {
+     let position = window.scrollY + 200
+     navbarlinks.forEach(navbarlink => {
+       if (!navbarlink.hash) return
+       let section = select(navbarlink.hash)
+       if (!section) return
+       if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
+         navbarlink.classList.add('active')
+       } else {
+         navbarlink.classList.remove('active')
+       }
+     })
+   }
+        </script>
+        <div class="resume_content">
+         
+          <div id="education">
+            <h1 class="block-title"><b>Education</b></h1>
+            
+            <div class="block-content">
+              <div class="block">
+                <div class="block_icon">
+                  <span>
+                    <i class="fa-solid fa-trophy fa-2x"></i>
+                  </span>
+                </div>
+                <div class="block-text">
+                  <h3>2014-2015</h3>
+                  <h1>Cambridge Education</h1>
+                  <h3>Fuck of</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor temporibus architecto, delectus autem quam dicta repudiandae, molestiae.</p>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="block-content">
+              <div class="block">
+                <div class="block_icon">
+                  <span>
+                    <i class="fa-solid fa-trophy fa-2x"></i>
+                  </span>
+                </div>
+                <div class="block-text">
+                  <h3>2014-2015</h3>
+                  <h1>Cambridge Education</h1>
+                  <h3>Fuck of</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor temporibus architecto, delectus autem quam dicta repudiandae, molestiae.</p>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="block-content">
+              <div class="block">
+                <div class="block_icon">
+                  <span>
+                    <i class="fa-solid fa-trophy fa-2x"></i>
+                  </span>
+                </div>
+                <div class="block-text">
+                  <h3>2014-2015</h3>
+                  <h1>Cambridge Education</h1>
+                  <h3>Fuck of</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor temporibus architecto, delectus autem quam dicta repudiandae, molestiae.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div id="experience">
+            <h1 class="block-title"><b>Experience</b></h1>
+            
+            <div class="block-content">
+              <div class="block">
+                <div class="block_icon">
+                  <span>
+                    <i class="fa-solid fa-trophy fa-2x"></i>
+                  </span>
+                </div>
+                <div class="block-text">
+                  <h3>2014-2015</h3>
+                  <h1>Cambridge Education</h1>
+                  <h3>Fuck of</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor temporibus architecto, delectus autem quam dicta repudiandae, molestiae.</p>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="block-content">
+              <div class="block">
+                <div class="block_icon">
+                  <span>
+                    <i class="fa-solid fa-trophy fa-2x"></i>
+                  </span>
+                </div>
+                <div class="block-text">
+                  <h3>2014-2015</h3>
+                  <h1>Cambridge Education</h1>
+                  <h3>Fuck of</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor temporibus architecto, delectus autem quam dicta repudiandae, molestiae.</p>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="block-content">
+              <div class="block">
+                <div class="block_icon">
+                  <span>
+                    <i class="fa-solid fa-trophy fa-2x"></i>
+                  </span>
+                </div>
+                <div class="block-text">
+                  <h3>2014-2015</h3>
+                  <h1>Cambridge Education</h1>
+                  <h3>Fuck of</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor temporibus architecto, delectus autem quam dicta repudiandae, molestiae.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div id="skill">
+            <h1 class="block-title"><b>Skills</b></h1>
+            
+            <div class="block-content">
+              <div class="main-skill">
+                <div class="box">
+                  <h1><B>HTML</B></h1>
+                  <div class="cir">
+                  <span class="radial">
+                    <h1>88%</h1>
+                  </span>
+                  </div>
+                  <div class="duration">
+                    
+                    <div class="d-week">
+                      <h1><b>28%</b></h1>
+                      <h3>Last Week</h3>
+                    </div>
+                    <div class="d-month">
+                      <h1><b>78%</b></h1>
+                      <h3>Last Month</h3>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="box">
+                  <h1><B>CSS</B></h1>
+                  <div class="cir">
+                  <span class="radial">
+                    <h1>90%</h1>
+                  </span>
+              </div>
+                  <div class="duration">
+                    
+                    <div class="d-week">
+                      <h1><b>92%</b></h1>
+                      <h3>Last Week</h3>
+                    </div>
+                    <div class="d-month">
+                      <h1><b>78%</b></h1>
+                      <h3>Last Month</h3>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="box">
+                  <h1><B>jQuery</B></h1>
+                  <div class="cir">
+                  <span class="radial">
+                    <h1>75%</h1>
+                  </span>
+              </div>
+                  <div class="duration">
+                    
+                    <div class="d-week">
+                      <h1><b>28%</b></h1>
+                      <h3>Last Week</h3>
+                    </div>
+                    <div class="d-month">
+                      <h1><b>78%</b></h1>
+                      <h3>Last Month</h3>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="sub-skill">
+                <div>
+                <span>
+                  <h3><p>Photoshop</p> <p>70%</p></h3>
+                  <div class="bar"><div></div></div>
+                </span>
+
+                <span>
+                  <h3><p>Blender 3D</p> <p>80%</p></h3>
+                  <div class="bar"><div></div></div>
+                </span>
+
+                <span>
+                  <h3><p>HTML</p> <p>86%</p></h3>
+                  <div class="bar"><div></div></div>
+                </span>
+
+                <span>
+                  <h3><p>MS Word</p> <p>89%</p></h3>
+                  <div class="bar"><div></div></div>
+                </span>
+                </div>
+               
+                <div>
+                  <span>
+                    <h3><p>Javascript</p> <p>78%</p></h3>
+                    <div class="bar"><div></div></div>
+                  </span>
+
+                  <span>
+                    <h3><p>jQuery</p> <p>50%</p></h3>
+                    <div class="bar"><div></div></div>
+                  </span>
+
+                  <span>
+                    <h3><p>CSS3</p> <p>95%</p></h3>
+                    <div class="bar"><div></div></div>
+                  </span>
+
+                  <span>
+                    <h3><p>WordPress</p> <p>69%</p></h3>
+                  <div class="bar"><div></div></div>
+                </span>
+                </div>
+             
+              </div>
+              
+              </div>
+            </div>
+
+            <div id="awards">
+              <h1 class="block-title"><b>Awards</b></h1>
+              
+              <div class="block-content">
+                <div class="block">
+                  <div class="block_icon">
+                    <span>
+                      <i class="fa-solid fa-trophy fa-2x"></i>
+                    </span>
+                  </div>
+                  <div class="block-text">
+                    <h3>2014-2015</h3>
+                    <h1>Cambridge Education</h1>
+                    <h3>Fuck of</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor temporibus architecto, delectus autem quam dicta repudiandae, molestiae.</p>
+                  </div>
+                </div>
+              </div>
+  
+              
+              <div class="block-content">
+                <div class="block">
+                  <div class="block_icon">
+                    <span>
+                      <i class="fa-solid fa-trophy fa-2x"></i>
+                    </span>
+                  </div>
+                  <div class="block-text">
+                    <h3>2014-2015</h3>
+                    <h1>Cambridge Education</h1>
+                    <h3>Fuck of</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor temporibus architecto, delectus autem quam dicta repudiandae, molestiae.</p>
+                  </div>
+                </div>
+              </div>
+  
+              
+              <div class="block-content">
+                <div class="block">
+                  <div class="block_icon">
+                    <span>
+                      <i class="fa-solid fa-trophy fa-2x"></i>
+                    </span>
+                  </div>
+                  <div class="block-text">
+                    <h3>2014-2015</h3>
+                    <h1>Cambridge Education</h1>
+                    <h3>Fuck of</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor temporibus architecto, delectus autem quam dicta repudiandae, molestiae.</p>
+                  </div>
+                </div>
+              </div>
+  
+            </div>
+  
+
+          </div>
+
+          
+          
+        </div>
+
+
+
+
+      </div>
+
+    </section>
+
+    <section id="projt">
+      <div class="project-focus">
+        <h1><b>OUR PROJECTS</b><h1>
+        <div class="project-image-container">
+          <section class="project-image-container-top">            
+            <div> img 1</div>
+            <div> img 2</div>
+            <div> img 3</div>
+          </section>
+          <section class="project-image-container-bottom">
+            <div> img 4</div>
+            <div> img 5</div>
+            <div> img 6</div>
+          </section>
+          
+          
+        </div>
+      </div>
+
+    </section>
+   
+    <script>
+        var TxtRotate = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
+};
+
+TxtRotate.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
+
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
+
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+  var that = this;
+  var delta = 300 - Math.random() * 100;
+
+  if (this.isDeleting) { delta /= 2; }
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+  }
+
+  setTimeout(function() {
+    that.tick();
+  }, delta);
+};
+
+window.onload = function() {
+  var elements = document.getElementsByClassName('txt-rotate');
+  for (var i=0; i<elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-rotate');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    }
+  }
+  // INJECT CSS
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+  document.body.appendChild(css);
+};
+    </script>
+
+<script>
+
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {
+  myFunction();
+  sideFunction();
+  decorateLink()
+  
+
+};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+var sidenav = document.getElementById("navi");
+var logos = document.getElementById("logos");
+var project = document.getElementById("projt");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+var sidestick = logos.offsetTop;
+var removeSidestick = project.offsetTop ;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+     navbar.classList.remove("sticky")
+  }
+}
+
+function sideFunction() {
+  if(window.pageYOffset>= sidestick){
+    sidenav.classList.add("rsticky")
+  }else{
+    sidenav.classList.remove("rsticky");
+  }
+  if(window.pageYOffset>= removeSidestick ){
+    sidenav.classList.remove("rsticky");
+  }
+}
+
+
+</script>
+
+
+<script>
+  /*main decorate nav hover codes*/
+  window.onscroll = function (){}
+  var about = document.getElementById("about");
+  var resume = document.getElementById("resume");
+
+  var abt = document.getElementById("abt");
+  var wrk = document.getElementById("wrk");
+
+  var resumeOfset = resume.offsetTop;
+  var aboutOfset = about.offsetTop;
+  function decorateLink(){
+    if(window.pageYOffset>= aboutOfset ){
+      abt.classList.add("decorate");
+    }else{
+      abt.classList.remove("decorate");
+    }
+    if(window.pageYOffset>= resumeOfset){
+      abt.classList.remove("decorate");
+      wrk.classList.add("decorate");
+    
+      
+    }else{
+      wrk.classList.remove("decorate");
+    }
+  }
+</script> 
+
+
+</body>
+</html>
