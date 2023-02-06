@@ -208,14 +208,94 @@ h2{
     grid-template-rows: repeat(2);
     gap: 8px;
 }
-@media screen and (max-width:500px) {
+
+/* footer */
+footer{
+    background-color: white;
+    height: 350px;
+    width: 100%;
+    margin: 0;
+    
+}
+footer h3{
+    text-align: center;
+    padding-top: 2em;
+    /* background-color: aqua; */
+    font-size: 30px;
+}
+.footer-divider{
+    display: none;
+    height: 0;
+    width: 70%;
+    content: "";
+    border-bottom: 0.6px solid rgb(112, 112, 112);
+}
+.footer-list{
+    /* list-style-type: none; */
+    /* background-color: blue; */
+    /* padding: 2rem auto; */  
+    margin-top: 3rem ;
+    display: none;
+  
+    
+    
+}
+.footer-list>a{
+    margin-bottom: 1.4rem;
+    height: auto;
+    width: auto;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    
+    /* background-color: aqua; */
+}
+.social-icons{
+    margin: 2rem auto;
+    height: 100px;
+    width: 230px;    
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p{
+    font-size: 12px;
+    color: rgb(82, 82, 82);
+    text-align: center;
+}
+footer a{
+    font-size: 16px;
+    display: inline;
+}
+.footer-foot{
+    height: auto;
+    width: 177px;
+    margin: 0.2rem auto;
+   
+}
+
+
+
+
+@media screen and (max-width:700px) {
     header{
         /* background-color: black; */
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         margin-top: 1rem;
+        height: auto;
 
+    }
+    nav{
+        width: 100%;
+        
+    }
+    nav>ul{
+        margin: 1px auto;
+        margin-right: 41px;
     }
    h1{
     width: 90%;
@@ -263,6 +343,22 @@ h2{
     font-size: 15px;
     margin: 1px auto;
    }
+   footer{
+    display: flex
+    ;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+   }
+   .footer-list{
+    margin: 1.9rem auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+   }
+
 
     
 }
