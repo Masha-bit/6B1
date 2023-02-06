@@ -219,7 +219,7 @@ footer{
 }
 footer h3{
     text-align: center;
-    padding-top: 2em;
+    padding-top: 1.3em;
     /* background-color: aqua; */
     font-size: 30px;
 }
@@ -344,6 +344,7 @@ footer a{
     margin: 1px auto;
    }
    footer{
+    height: 550px;
     display: flex
     ;
     flex-direction: column;
