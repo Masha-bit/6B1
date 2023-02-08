@@ -302,3 +302,69 @@ a:hover{
 .sect3-services>div>h4{
     width: 80%;
 }
+
+
+@media screen and (max-width:700px) {
+    #sect1{
+        height: auto;
+    }
+    #navbar{
+        height: auto;
+        padding: 3rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(126, 46, 0);
+    }
+    .nav-main{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    nav ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-items: space-around;
+        align-items: center;
+        /* background-color: aqua; */
+        font-size: 15px;
+        margin-right:60px;
+    }
+    nav ul li{
+        margin-bottom: 0.8rem;
+    }
+    #header{
+        margin-top: 3rem;
+    }
+    #sect2{
+        padding: 4rem 0;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Nunito', sans-serif;
+    }
+    #sect3{
+        height: auto;
+        padding: 4rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sect3-services{
+        height: auto;
+        width: 80%;
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: black */
+    }
+}
