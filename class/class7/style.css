@@ -343,8 +343,8 @@ a:hover{
         margin-top: 3rem;
     }
     #sect2{
-        padding: 8rem 0;
         height: auto;
+        padding: 8rem 0;        
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -353,13 +353,19 @@ a:hover{
     }
     .sect2-img,
     .sect2-text{
-    height: 400px;
+    height: auto;
     width: 80%;
     /* background-color: black;
     border: 2px solid coral; */
 }
     .sect2-text{
         margin-top: 3rem;
+}
+.sect2-personal-info{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 0;
 }
     #sect3{
         height: auto;
