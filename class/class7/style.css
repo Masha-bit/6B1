@@ -388,5 +388,6 @@ a:hover{
     }
     .sect3-services>div{
         margin: 2rem 0;
+        width: 80%;
     }
 }
