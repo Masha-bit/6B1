@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+header{
+    height:600px;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.445); */
+    background: url(./images/522310.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+header>h1>span{
+    color: rgb(9, 9, 145);
+    
+}
+header>h1{
+    font-size: 19px;
+}
+header>h6{
+    font-size: 34px;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 3, 12);
+    color: white;
+
+}
+#img-div{
+    height: 500px;
+    width: 90%;
+    display: flex;
+    /* background-color: bisque; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    max-height: 300px;
+    max-width: 240px;
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 10px 20px 30px rgb(24, 24, 61);
+}
+#img-caption{
+    width: 40%;
+    font-size: 9px;
+    text-align: center;
+}
+#more-info{
+    height: auto;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#more-info>h4{
+    margin-top: 5rem;
+    font-size: 27px;
+    text-align: center;
+}
+#more-info>ul{
+    margin-top: 3rem;
+    width: 50%;
+}
+#more-info>ul>li{
+    margin-top: 1rem;
+}
